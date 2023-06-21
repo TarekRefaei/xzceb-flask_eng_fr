@@ -8,4 +8,3 @@ def englishToFrench(englishText):
 def frenchtoEnglish(frenchText):
     englishText = MyMemoryTranslator(source="french",target="english").translate(frenchText) 
     return englishText
-    
